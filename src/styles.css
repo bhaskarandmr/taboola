@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 300;
+  color: #212121;
+  background: #eee;
+  font-family: Arial, Sans-Serif;
+}
+
+.recomendation-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget {
+  background-color: inherit;
+  flex-basis: 27rem;
+  flex-grow: 1;
+  margin: 2px 2px;
+  padding: 0 5px;
+  height: 27rem;
+}
+
+.widget > a > img {
+  width: 26rem;
+  height: 18rem;
+  margin-right: 0.8rem;
+}
+
+.widget > a > h5 {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.widget > a:link {
+  text-decoration: none;
+}
+
+.widget > a:hover {
+  text-decoration: underline;
+  color: #555;
+}
+
+.widget > a > p {
+  width: 26rem;
+  color: #555;
+}
+
+.widget > span {
+  flex-grow: 1;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  background: #ddd;
+  box-shadow: 0 1px 1px 0 #00000055;
+  border-radius: 4px;
+}
